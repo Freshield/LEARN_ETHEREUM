@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Youtube/a17_library.sol": "Array"
+			"Youtube/a17_library.sol": "SafeMath"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},

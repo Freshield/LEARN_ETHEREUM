@@ -4,7 +4,32 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "x",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint8",
+						"name": "y",
+						"type": "uint8"
+					}
+				],
+				"name": "testAdd",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Youtube/a17_library.sol": "Array"
+			"Youtube/a17_library.sol": "TestSafeMath"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
