@@ -51,7 +51,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Youtube/a15_car_factory.sol": "CarFactory"
+			"Youtube/a16_import.sol": "CarFactory"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -65,12 +65,52 @@
 		"remappings": []
 	},
 	"sources": {
-		"Youtube/a15_car_factory.sol": {
-			"keccak256": "0xddc65dac6ac49c73415626c6e073a00ed99b733af6456ac50ae521db5dd9bfd9",
+		"Youtube/a16_import.sol": {
+			"keccak256": "0xc4f4aa24957d77a446577f56a36c11a54a90beedc3ddb7200a635ad52419e52b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b26aa167461cd6d0bc2dbcca29e9efd3796169f2321402be9576685fc893a1ff",
-				"dweb:/ipfs/QmQnKbkf7xcs7qTN5LXndo3nmaDAC29rC6q8zbVSzbT3vL"
+				"bzz-raw://88404b8de752713130e332bd48e4e8134b4dd8c78a596be26aa4f3a9ee97bd96",
+				"dweb:/ipfs/QmZZMehAerYuTJ6nAaGud3MpNV8ev6w9jeF3Moit2At4nM"
+			]
+		},
+		"Youtube/myLibs/Car.sol": {
+			"keccak256": "0xa6a42bb0b87d7d13710c2d8a08380ed88c36f9fb7936a90e83e2e55fa6c65af0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9cd8e49991a334d31dd21b814470e5ebebe6b298b4d0f6bc164aff83291c0ff2",
+				"dweb:/ipfs/QmXVuNq5e2UqwuGa5yQSJApE7VRtx2BXyN23h7XzhAMywi"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol": {
+			"keccak256": "0x34c35af52260eb46bb77667bd4f751c759c218bae9fb2e0a40c5c2df604eba0b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://57035fc556a5d0c7e8bbb4bf74639f6f9bc93bb9e34020e09a95342ecf50cde7",
+				"dweb:/ipfs/QmdhCggz1FP9kVoxzeHH7RMj7qaK6yVGDfPpegyoPTh9Ni"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol": {
+			"keccak256": "0x027b891937d20ccf213fdb9c31531574256de774bda99d3a70ecef6e1913ed2a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://087318b21c528119f649899f5b5580566dd8d7b0303d4904bd0e8580c3545f14",
+				"dweb:/ipfs/Qmbn5Mj7aUn8hJuQ8VrQjjEXRsXyJKykgnjR9p4C3nfLtL"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
+			"keccak256": "0x83fe24f5c04a56091e50f4a345ff504c8bff658a76d4c43b16878c8f940c53b2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d4c3df1a7ca104b633a7d81c6c6f5192367d150cd5a32cba81f7f27012729013",
+				"dweb:/ipfs/QmSim72e3ZVsfgZt8UceCvbiSuMRHR6WDsiamqNzZahGSY"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/Context.sol": {
+			"keccak256": "0x95098bd1d9c8dec4d80d3dedb88a0d949fa0d740ee99f2aa466bc308216ca6d5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7fec968dcd68e13961521fa3c7dd87baecad91a2653b19240e81f21cc4f3ba85",
+				"dweb:/ipfs/QmaXtsYt4Mphm8XHNUfk2me1cF3ssS2SqDBNFpYAzMjomC"
 			]
 		}
 	},
