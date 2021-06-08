@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "cars",
+				"outputs": [
+					{
+						"internalType": "contract Car",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_model",
+						"type": "string"
+					}
+				],
+				"name": "createWithMoney",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Youtube/a15_car_factory.sol": "CarFactory"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Youtube/a15_car_factory.sol": {
+			"keccak256": "0xddc65dac6ac49c73415626c6e073a00ed99b733af6456ac50ae521db5dd9bfd9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b26aa167461cd6d0bc2dbcca29e9efd3796169f2321402be9576685fc893a1ff",
+				"dweb:/ipfs/QmQnKbkf7xcs7qTN5LXndo3nmaDAC29rC6q8zbVSzbT3vL"
+			]
+		}
+	},
+	"version": 1
+}
