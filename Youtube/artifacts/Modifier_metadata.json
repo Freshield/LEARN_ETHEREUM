@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "onlyCallByOwner",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Youtube/a12_modifier.sol": "Modifier"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Youtube/a12_modifier.sol": {
+			"keccak256": "0x7ff04f36859a51aed4974a3a9976cfb69115c24063c02983d06a6ab70717b1c1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://09dc3e67a5ec0134a00076904c9ee3c167331d920a286737d2493f1d460eb31b",
+				"dweb:/ipfs/QmWNe5UzRQD96AbUzvpm1ZyAoypKSFwNZpP46Ufqe7s5f8"
+			]
+		}
+	},
+	"version": 1
+}
