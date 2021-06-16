@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "trasfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Youtube/a6_event.sol": "Event"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Youtube/a6_event.sol": {
+			"keccak256": "0x03c3f70aaa3075c1df9e36a9027ef38164509ec8e809ab03dce3730cc5d25c27",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ab8a98fc74856294a0fc9df1f3e1b90ffb7fbee4ac50d319c1f181061512debf",
+				"dweb:/ipfs/Qmc6CRieeWhntfnVmAiAe3HEyJuyumVb3CBrabzd1eNdQX"
+			]
+		}
+	},
+	"version": 1
+}
