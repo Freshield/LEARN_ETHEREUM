@@ -16,6 +16,11 @@
 						"internalType": "string",
 						"name": "_name1",
 						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_helloworld",
+						"type": "string"
 					}
 				],
 				"stateMutability": "nonpayable",
@@ -24,6 +29,19 @@
 			{
 				"inputs": [],
 				"name": "getContractName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getHelloWorld",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -74,7 +92,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Youtube/a5_multi_inheritance.sol": "A"
+			"Youtube/a5_multi_inheritance.sol": "C"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},

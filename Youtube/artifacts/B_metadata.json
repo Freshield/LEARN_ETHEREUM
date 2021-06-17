@@ -9,11 +9,6 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
 						"name": "_helloworld",
 						"type": "string"
 					}
@@ -23,33 +18,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "getContractName",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "helloworld",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "name",
+				"name": "getHelloWorld",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -74,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Youtube/a4_inheritance.sol": "B"
+			"Youtube/a5_multi_inheritance.sol": "B"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -88,12 +57,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Youtube/a4_inheritance.sol": {
-			"keccak256": "0x4a0aacbd7dc95f63bd81bc5722244463850c339717a0b4cd4f42c50597c7346b",
+		"Youtube/a5_multi_inheritance.sol": {
+			"keccak256": "0xa7c5712ee1f4b1f99b35c701b0d482763409143cbda13393b5218b256fe3eef5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://cdd079154d622ac6f51b0da135854dff824186d97bdd84ee239411846c7e5584",
-				"dweb:/ipfs/QmVaS3MYbBxEhsjjgXEZ1trYv8GodTHtTfuXGD4iieE2C8"
+				"bzz-raw://e6b67ce7e50cfd275bc482e45cfd16222dbe649448e17227b6cc2356232289d0",
+				"dweb:/ipfs/QmbrJ1iGL39hCsnyrAmxHsDoxhw6cup72gyBDSmmnrediU"
 			]
 		}
 	},
