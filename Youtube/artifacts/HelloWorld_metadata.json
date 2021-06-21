@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getMessage",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_message",
+						"type": "string"
+					}
+				],
+				"name": "setMessage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Youtube/a1_hello_world.sol": "HelloWorld"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Youtube/a1_hello_world.sol": {
+			"keccak256": "0x099cf3f7858986fa36c731aa58d4b03ec606ebe25bba43d7094929cff9a06e15",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2e76d89aa9c3b1d5e1647dca69f001c50bcfbc55bc98723d199b1b6b45540277",
+				"dweb:/ipfs/QmfJRtAXQ1HGGD7FxohnPoCPvwJ9RbXYXb3WZSjLGQXzV8"
+			]
+		}
+	},
+	"version": 1
+}
