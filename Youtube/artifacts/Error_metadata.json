@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.5+commit.a4f2e591"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_amount",
+						"type": "int256"
+					}
+				],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Youtube/a8_error.sol": "Error"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Youtube/a8_error.sol": {
+			"keccak256": "0x270ed0b1533ac7f0ea14e3201fafd89c19efb1c32b3cd39bacd462c6e3ef71d7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5c619a73474040bf673cff5287356f76c86599d3908e1027a24fb75708733c57",
+				"dweb:/ipfs/QmWYVcc9Vo5MA1r1UEQkACtpArMAriZQ7mDrMLUV65gSbG"
+			]
+		}
+	},
+	"version": 1
+}
