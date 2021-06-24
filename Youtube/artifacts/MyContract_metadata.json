@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_counter",
+						"type": "address"
+					}
+				],
+				"name": "increment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Youtube/a18_interface.sol": "MyContract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Youtube/a18_interface.sol": {
+			"keccak256": "0xbf3efe2d35d63bafeb3eedb14c7e01699af0d3fc2e37aba24b9d85a4a0ffc2ee",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://687a834f8ec219c68cd0e38ec5c698e2c7025c110850257903524307e963e852",
+				"dweb:/ipfs/QmUSWfMCqowpECzSH2MnZ9vTzc4QcYa85BbBrLarULrDbL"
+			]
+		}
+	},
+	"version": 1
+}
