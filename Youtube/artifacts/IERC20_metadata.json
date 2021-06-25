@@ -6,32 +6,6 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_na",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "_sym",
-						"type": "string"
-					},
-					{
-						"internalType": "uint8",
-						"name": "_deci",
-						"type": "uint8"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_initialSupply",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"anonymous": false,
 				"inputs": [
 					{
@@ -267,7 +241,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Youtube/a20_MyToken.sol": "MyToken"
+			"Youtube/a20_MyToken.sol": "IERC20"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
